@@ -1,0 +1,52 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: black;
+  }
+
+  #listaCompras li {
+    list-style: none;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 5px;
+    color: white;
+  }
+
+  .concluido{
+    text-decoration: line-through;
+    opacity: 0.6;
+  }
+
+ /* .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }*/
+
+  button{
+    border-radius: 10px;
+    border: none;
+    padding: 15px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+  }
+
+  #novoItem{
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 15px;
+  }
+
+ /* .ul{
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+  }*/
+
+h2{
+    color: white;
+}
+
